@@ -93,7 +93,7 @@ export function LoginForm() {
                 value={formData.email}
                 onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
                 className="w-full pl-10 pr-4 py-3 border rounded-lg focus:ring-0 dark:bg-gray-700 dark:text-white"
-                placeholder="Ingrese su usuario o ID"
+                placeholder="Ingrese su usuario oooooo ID"
                 required
                 style={{ boxShadow: 'none', borderColor: '#000', borderWidth: '1px' }}
                 onFocus={e => e.currentTarget.style.setProperty('border-color', '#C01702', 'important')}
